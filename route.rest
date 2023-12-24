@@ -1,0 +1,35 @@
+### GET REQUEST
+
+GET http://localhost:3000/api/users
+
+
+### SINGLE GET REQUEST
+
+GET http://localhost:3000/api/users/65888de0144f442ac87e2101
+
+
+### CREATE REQUEST
+
+POST http://localhost:3000/api/users
+Content-Type: application/json
+
+{
+    "name": "Kiran Suthar",
+    "email": "ksuthar2016@gmail.com"
+}
+
+
+### UPDATE FEW REQUEST ( PUT IS USED FOR UPDATING ALL REQUEST )
+
+PATCH http://localhost:3000/api/users/65888de0144f442ac87e2101
+Content-Type: application/json
+
+{
+    "name": "Kiran Parmar",
+    "email": "kparmar0075@gmail.com"
+}
+
+
+### DELETE REQUEST
+
+DELETE http://localhost:3000/api/users/65888de0144f442ac87e2101
